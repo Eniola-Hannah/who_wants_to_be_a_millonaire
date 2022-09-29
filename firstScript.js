@@ -61,12 +61,10 @@ const signIn =()=>{
         if ((logInName == allPlayers[index].firstname||logInName==allPlayers[index].email) && logInPassword == allPlayers[index].password){
             logIn = true
             currentPlayer = allPlayers[index]
-            currentPlayerIndex = index
         }
     }
     if(logIn){
         localStorage.setItem('currentPlayer', JSON.stringify(currentPlayer))
-        localStorage.setItem('currentPlayerIndex', JSON.stringify(currentPlayerIndex))
         window.location.href = "index.html"
     }else{
         display.innerText = "Incorrect Name or Password"

@@ -16,3 +16,9 @@ button{
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+marquee{
+    background-color: white;
+    color: navy;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif
+}

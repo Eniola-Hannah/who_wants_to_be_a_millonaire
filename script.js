@@ -75,7 +75,9 @@ var questions = [
         realAnswer: "Canada"
     },
 ]
-
+nowPlaying = JSON.parse(localStorage.getItem("currentPlayer"))
+console.log(nowPlaying.lastname)
+pageMarquee.innerHTML = `WELCOME ${nowPlaying.lastname} ${nowPlaying.firstname} TO 'WHO WANTS TO BE A MILLONAIRE 2022 EDITION, WE ARE WISHING YOU BEST OF LUCK`
 
 
 const startGame=()=>{
