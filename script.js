@@ -75,3 +75,9 @@ var questions = [
         realAnswer: "Canada"
     },
 ]
+
+
+
+const startGame=()=>{
+    window.location.href ="game.html"
+}
