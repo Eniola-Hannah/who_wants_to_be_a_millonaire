@@ -1,5 +1,18 @@
 body{
-    background-image: url(media/welcome-background-mobile.jpg);
+    background-image: url(media/welcome-background-img.jpg);
     background-position: center;
     height: 100vh;
+}
+button{
+    width: 63px;
+    height: 63px;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 653px;
+    background-color: navy;
+    color: white;
+    border: 5px solid navy;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
