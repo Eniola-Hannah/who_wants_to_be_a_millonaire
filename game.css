@@ -27,3 +27,8 @@ marquee{
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
 }
+.container{
+    position: absolute;
+    top: 60vh;
+    left: 50vh;
+}
