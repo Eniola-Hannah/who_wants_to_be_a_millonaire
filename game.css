@@ -1,6 +1,5 @@
 body{
     background-image: url(media/game-background.jpg);
-    background-position: ce;
 }
 marquee{
     background-color: white;
@@ -41,4 +40,8 @@ marquee{
     position: absolute;
     top: 60vh;
     left: 50vh;
+}
+
+@media only screen and (max-width:800px){
+    
 }

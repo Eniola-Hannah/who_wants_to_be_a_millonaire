@@ -1,4 +1,4 @@
-var questions = [
+var AllQuestions = [
     {
         questions: "What is the primary organ of Taste",
         options: ["Ears","Eyes","Tongue","Nose"],
@@ -83,14 +83,15 @@ const startGame=()=>{
     window.location.href ="game.html"
 }
 
-let i = 0
+var i = 0
 const displayQuestion =()=>{
-    for (let index = 0; index < questions.length; index++) {
-        i = index
+    for (let index = 0; index < AllQuestions.length; index++) {
+        // span[index].style.background = 'none';
     }
-    loadQuestion.innerHTML = questions[0].questions
-    option1.innerHTML = questions[0].options[0]
-    option2.innerHTML = questions[0].options[1]
-    option3.innerHTML = questions[0].options[2]
-    option4.innerHTML = questions[0].options[3]
+
+    loadQuestion.innerHTML = AllQuestions[i].questions
+    option1.innerHTML = AllQuestions[i].options[0]
+    option2.innerHTML = AllQuestions[i].options[1]
+    option3.innerHTML = AllQuestions[i].options[2]
+    option4.innerHTML = AllQuestions[i].options[3]
 }
